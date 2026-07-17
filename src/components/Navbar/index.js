@@ -4,7 +4,6 @@ import Link from "next/link";
 import { motion, AnimatePresence } from "framer-motion";
 import { navLinks } from "@/data/packs";
 
-
 export default function Navbar() {
   const [open, setOpen] = useState(false);
 
@@ -13,7 +12,8 @@ export default function Navbar() {
       <nav className="max-w-6xl mx-auto flex items-center justify-between px-6 py-4">
         <Link
           href="/"
-          className="text-xl font-bold tracking-tight"
+          className="text-xl font-semibold tracking-tight"
+          style={{ fontFamily: "'Fraunces', serif" }}
           onClick={() => setOpen(false)}
         >
           Rapid<span className="text-[#F97316]">Run</span>

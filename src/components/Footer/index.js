@@ -5,9 +5,11 @@ export default function Footer() {
   return (
     <footer className="bg-[#0B2E33] text-white">
       <div className="max-w-6xl mx-auto px-6 py-14 flex flex-col md:flex-row md:items-center md:justify-between gap-10">
-        {/* Brand */}
         <div className="max-w-sm">
-          <h2 className="text-2xl font-bold tracking-tight">
+          <h2
+            className="text-2xl font-semibold tracking-tight"
+            style={{ fontFamily: "'Fraunces', serif" }}
+          >
             Rapid<span className="text-[#F97316]">Run</span>
           </h2>
           <p className="mt-3 text-sm text-white/60 leading-relaxed">
@@ -16,7 +18,6 @@ export default function Footer() {
           </p>
         </div>
 
-        {/* Nav */}
         <nav>
           <ul className="flex flex-wrap gap-x-8 gap-y-3 text-sm font-medium tracking-wide">
             {navLinks.map((link) => (
@@ -34,7 +35,6 @@ export default function Footer() {
         </nav>
       </div>
 
-      {/* Bottom bar */}
       <div className="border-t border-white/10">
         <div className="max-w-6xl mx-auto px-6 py-5 flex flex-col sm:flex-row items-center justify-between gap-2 text-xs text-white/40">
           <p>

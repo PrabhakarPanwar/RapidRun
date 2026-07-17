@@ -1,4 +1,18 @@
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:wght@500;600&family=Inter:wght@400;500;600&display=swap");
 @import "tailwindcss";
+
+body {
+  background-color: #F7F3EC;
+  color: #1B1B1B;
+  font-family: 'Inter', sans-serif;
+}
+
+h1,
+h2,
+h3,
+.font-display {
+  font-family: "Fraunces", serif;
+}
 
 a {
   outline: none;
