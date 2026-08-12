@@ -166,7 +166,7 @@ export const packs = [
 
   {
     id: 16,
-    img: "",
+    img: "/images/Rafting/Brahmpuri_to_NIM_Beach.webp",
     category: "River Rafting",
     title: "12Km River Rafting Brahmpuri to NIM Beach – Rishikesh",
     desc: "Enjoy an exciting 12 km rafting adventure from Brahmpuri to NIM Beach, perfect for beginners, families, and adventure lovers",
@@ -177,7 +177,7 @@ export const packs = [
 
   {
     id: 17,
-    img: "",
+    img: "/images/Rafting/Shivpuri_to_NIM_Beach.webp",
     category: "River Rafting",
     title: "16Km River Rafting Shivpuri to NIM Beach – Rishikesh",
     desc: "Experience an exciting 16 km river rafting adventure from Shivpuri to NIM Beach, featuring thrilling rapids, scenic Himalayan views, and unforgettable moments on the Ganga.",
@@ -188,7 +188,7 @@ export const packs = [
 
   {
     id: 18,
-    img: "",
+    img: "/images/Rafting/MarineDrive_to_NIM_Beach.webp",
     category: "River Rafting",
     title: "26Km River Rafting, Marine Drive to NIM Beach – Rishikesh",
     desc: "Experience an exhilarating 26 km river rafting adventure on the Ganga, featuring thrilling rapids, stunning Himalayan scenery, and an unforgettable white-water experience.",
@@ -199,13 +199,48 @@ export const packs = [
 
   {
     id: 19,
-    img: "",
+    img: "/images/Rafting/Kaudiyala_to_NIM_Beach.webp",
     category: "River Rafting",
     title: "35Km River Rafting, Kaudiyala to NIM Beach – Rishikesh",
     desc: "Experience an unforgettable 35 km river rafting adventure on the Ganga, packed with thrilling rapids, scenic Himalayan views, and an extended white-water journey.",
     tag: 3000,
     about:
       "Kaudiyala to NIM Beach rafting in Rishikesh is often advertised as a 35 km stretch, but the actual rafting distance is approximately 28 km, making it one of the longest and most thrilling rafting experiences on the Ganga. This stretch typically takes 3.5 to 4 hours on the river and is perfect for adventure seekers looking for an extended white-water rafting journey.",
+  },
+];
+
+export const heroData = [
+  {
+    id: "Rafting",
+    image: "/images/Hero/Rafting.webp",
+    alt: "Rafters navigating whitewater rapids",
+    title1: "Chase the rapids.",
+    title2: "Rest by the river.",
+    desc: "Whitewater rafting trips down the river's best rapids, with riverside stays coming soon so you can settle in after the run.",
+  },
+  {
+    id: "Bungee",
+    image: "/images/Hero/Bungee.webp",
+    alt: "A bungee jumper leaping from a height",
+    title1: "Take the leap.",
+    title2: "Feel the freefall.",
+    desc: "A heart-pounding jump from height, with the rush of freefall giving way to the calm of the valley below.",
+  },
+  {
+    id: "Swing",
+    image: "/images/Hero/Swing.webp",
+    alt: "A giant swing soaring over the valley",
+    title1: "Swing out wide.",
+    title2: "Soar over the valley.",
+    desc: "A giant swing arcing out over the gorge, trading the ground for a wide-open rush of air and view.",
+  },
+  {
+    id: "Zipline",
+    image: "/images/Hero/Zipline.webp",
+    alt: "A rider ziplining across the valley",
+    title1: "Fly the line.",
+    title2: "Watch the valley pass below.",
+    desc: "A high-speed zipline stretched across the valley, giving you a bird's-eye run over the river and forest below.",
   },
 ];
 
