@@ -23,7 +23,7 @@ export default function Hero() {
 
           <div className="mt-6 md:mt-8 flex flex-wrap justify-center md:justify-start gap-3">
             <button className="bg-[#F97316] text-[#4A1B0C] font-medium px-5 py-2.5 sm:px-6 sm:py-3 text-sm sm:text-base rounded-lg hover:brightness-95 transition">
-              Book rafting
+              Book your Adventure
             </button>
             {/* <button className="border border-[#0B2E33]/20 text-[#0B2E33] font-medium px-5 py-2.5 sm:px-6 sm:py-3 text-sm sm:text-base rounded-lg hover:bg-[#0B2E33]/5 transition">
               Explore hotels

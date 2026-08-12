@@ -2,9 +2,9 @@
 @import "tailwindcss";
 
 body {
-  background-color: #F7F3EC;
-  color: #1B1B1B;
-  font-family: 'Inter', sans-serif;
+  background-color: #f7f3ec;
+  color: #1b1b1b;
+  font-family: "Inter", sans-serif;
 }
 
 h1,
@@ -17,4 +17,8 @@ h3,
 a {
   outline: none;
   border: none;
+}
+
+button {
+  cursor: pointer;
 }

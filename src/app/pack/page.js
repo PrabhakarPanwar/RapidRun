@@ -5,17 +5,13 @@ export default function Page() {
   return (
     <main className="bg-[#F7F3EC] min-h-screen">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 py-14">
-        <h1
-          className="text-2xl sm:text-3xl font-semibold text-[#0B2E33] text-center"
-          style={{ fontFamily: "'Fraunces', serif" }}
-        >
+        <h1 className="text-2xl sm:text-3xl Fraunces font-semibold text-[#0B2E33] text-center">
           Our Packages
         </h1>
-        <p className="mt-2 text-sm text-[#5C6B6C] text-center">
+        <p className="my-2 text-sm text-[#5C6B6C] text-center">
           Pick a run that matches your pace, from calm floats to class IV
           whitewater.
         </p>
-
         <div className="mt-10 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
           {packs.map((i) => (
             <Link

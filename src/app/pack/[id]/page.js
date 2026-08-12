@@ -1,4 +1,4 @@
-import TrustSection from "@/components/TrustSection/page";
+import TrustSection from "@/components/TrustSection";
 import { packs } from "@/data/packs";
 import Link from "next/link";
 
